@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = ""${var.prefix}-workshop""
+  name     = "${var.prefix}-workshop"
   location = "centralus"
 }
 
